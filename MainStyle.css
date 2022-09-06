@@ -1,0 +1,8 @@
+.mainGrid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto ;
+    background-color: red;
+}
+.item1{
+    background-color: #3897f0;
+}
