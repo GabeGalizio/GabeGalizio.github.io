@@ -37,36 +37,6 @@
     </ul>
 
 
-    <!--Letting the user know what page they are on -->
-    <h2>Contact Us</h2>
-    <h4>Still have more questions for me well send me an email and we'll see if I reply back</h4>
-    <!--Opens the form and setting up with the post method and calling "ContactBackEnd.php" -->
-    <!--once the form has been submitted -->
-    <form id="contactUs" class="contactUs" method="post" action="ContactBackEnd.php">
-        <!--creates a label for the name-->
-        <label for="Name" class="formLabel">Your Name</label>
-        <div class="NameInput">
-            <!--Creates the name entery field and is set to required-->
-            <input type="text" id="Name" class="ContactData" required>
-        </div>
-        <div class="formGroup">
-            <!--Creates a label for the email-->
-            <label for="Email" class="formLabel">Your Email address</label> <br>
-            <!--creates an email fillable on the website and set to required -->
-            <input type="email" id="Email" name="Email" class="ContactData" required>
-            <br>
-            <!--creates a label for the message-->
-            <label for="Message" class="formLabel">Message</label> <br>
-            <!--creates a fillable for the message to be sent out and set to required -->
-            <textarea id="Message" name="Message" class="ContactData" rows="5" maxlength="2000" required></textarea>
-            <br>
-            <!--creates the submit button for the user to their email-->
-            <button type="submit" id="subButton" class="subButton">Send</button>
-        </div>
-
-    </form>
-
-
 
 </head>
 <body>
