@@ -1,8 +1,32 @@
 .mainGrid {
     display: inline-grid;
-    grid-template-columns: auto auto auto ;
-    background-color: red;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    background-color: gainsboro;
+    justify-content: space-evenly;
 }
-.item1{
-    background-color: #3897f0;
+.mainTXT{
+    display: grid;
+    grid-template-columns: auto auto;
 }
+.item1 {
+    background-color: #7296be;
+}
+.item2 {
+    background-color: brown;
+}
+
+.main {
+    justify-content: center;
+    padding: 10px;
+}
+.centerSocial{
+    text-align: center;
+}
+
+.socialsgrid {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
